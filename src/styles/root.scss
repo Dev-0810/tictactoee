@@ -2,7 +2,20 @@ body {
   padding: 0;
   margin: 0;
   color: yellow;
-  background: blue;
+  background-image: linear-gradient(to right, #554f89, #5f56c3, #51517a);
+}
+
+.reload-bttn {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 50px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: #ffe54c;
+
 }
 
 button {
@@ -25,14 +38,14 @@ button {
   .board-row {
     display: flex;
     flex-direction: row;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid white;
     &:last-child {
       border-bottom: none;
     }
     .square {
       width: 80px;
       height: 80px;
-      border-right: 2px solid #000;
+      border-right: 2px solid whitesmoke;
       font-size: 2.5rem;
       padding: 0;
       overflow: hidden;
